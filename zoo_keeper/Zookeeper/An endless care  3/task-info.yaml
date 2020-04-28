@@ -1,0 +1,15 @@
+type: edu
+custom_name: An endless care <3
+files:
+- name: zookeeper/zookeeper.py
+  visible: true
+  learner_created: true
+- name: animals.py
+  visible: true
+  learner_created: true
+- name: tests.py
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/projects/98/stages/542/implement
+status: Solved
+record: 4
