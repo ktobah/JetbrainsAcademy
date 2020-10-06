@@ -1,0 +1,15 @@
+<h2>Matching brackets</h2>
+<html>
+ <head></head>
+ <body>
+  <p>As you have probably noticed, most code editors check if you used the right number of brackets in your code.</p> 
+  <p>Write a simple brackets checker that, given a string, prints 'OK' if all the brackets are used correctly, and 'ERROR' otherwise.</p> 
+  <p>Don't forget to check that the brackets are in the right order (opening before closing).</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-411').style.display='inline'"> Hint </button> </p>
+  <div id="hint-411" style="display:none;">
+    Each time you encounter an opening bracket '(', put it to the stack. Do the opposite when you encounter a closing bracket. 
+  </div>
+  <p></p>
+ </body>
+</html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">(a + b)*c</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">OK<br></code></pre><br><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">((a + b)*c</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">ERROR</code></pre><br><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">)5*).((</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">ERROR</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/8915">Show topic summary</a>
